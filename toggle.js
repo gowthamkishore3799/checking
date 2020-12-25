@@ -1,0 +1,13 @@
+try {
+	console.log('True')
+	console.log(window.location.href,'href')
+
+    if(window.location.href=="https://app.yellowmessenger.com/api/chat/demo/x1608638651180")
+    {
+	setTimeout(function () {
+		YellowMessengerPlugin.toggleChat();
+	}, 5000);
+    }
+} catch (e) {
+	console.log(e, 'Er in custom script :: ');
+}
