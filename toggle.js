@@ -1,8 +1,4 @@
-
-<html>
-	<body>
-	<p>hi</p>
-	<script type="javascript">
+console.log('True ')
 try {
 	console.log('True')
 	console.log(window.location.href,'href')
@@ -16,6 +12,3 @@ try {
 } catch (e) {
 	console.log(e, 'Er in custom script :: ');
 }
-</script>
-</body>
-</html>
